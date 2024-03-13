@@ -1,0 +1,47 @@
+* {
+    /*  (*) use for all  */
+    margin: 0;
+ padding: 0;
+ outline: 0;
+ border: 0;
+ box-sizing: border-box;  /* use for take included value on seted value */
+}
+.Product_Card{  /* id mantion first we use # then the name & for class we use (.)*/
+    width: 23%;
+    background-color:orange;
+margin: 20px 40px 60px 80px ; 
+/*       top  right bottom left*/
+ /*for specing outside (margin)
+ if we take 3 parameter for margin or padding then 1st take for top then 2nd take left right and 3rd take bottom√*/
+border: 10px solid aquamarine;  /*for border we have to use those three parametar */
+            /* we can use deshed,dotted ,inset ,outset on solid position */
+border-top: 20 px firebrick; /* for specific top bottom */
+
+ padding: 30px;
+  /*for specing inside (padding)
+  like margin padding is same*/
+border-radius: 10px 20px 30px 40px ;  /* for carb the border */
+
+;
+  
+
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  /* for making circle width height must be same px and the border radius have to be 50% */
+    background-color: red;
+}
+
+.background_image{
+background-image:url(/img/nature.jpeg);
+background-size: cover; /* for cover all background with one image */ 
+background-image: linear-gradient(to right red,blue) ; /* for multi color */
+background-size:cover;
+background-clip: text;
+color: transparent;    /*for multi color background we must have to use 40 to 45 */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
